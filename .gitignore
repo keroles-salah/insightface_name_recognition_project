@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+dataset/
+test_images/
+models/*.npz
+
+output.jpg
+.env
+.venv/
+venv/
