@@ -9,3 +9,6 @@ output.jpg
 .env
 .venv/
 venv/
+
+# Accidental nested clone
+insightface_name_recognition_project/
