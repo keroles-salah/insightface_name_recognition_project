@@ -3,7 +3,7 @@ __pycache__/
 
 dataset/
 test_images/
-models/*.npz
+models/
 
 output.jpg
 .env

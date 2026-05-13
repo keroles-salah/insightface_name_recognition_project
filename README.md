@@ -94,7 +94,7 @@ python src/collect_faces.py --name PersonName --samples 80
 Example:
 
 ```bash
-python src/collect_faces.py --name Keroles --samples 80
+python src/collect_faces.py --name PersonName --samples 80
 ```
 
 Useful options:
@@ -222,7 +222,7 @@ Do not commit:
 ```text
 dataset/
 test_images/
-models/face_database.npz
+models/
 output.jpg
 ```
 
@@ -286,4 +286,4 @@ If recognition is unstable, collect more samples and rebuild the database.
 
 ## License
 
-Add a license before publishing if you want others to use, modify, or distribute the project. The MIT License is a common choice for open-source projects.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

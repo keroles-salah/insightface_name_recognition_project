@@ -100,7 +100,7 @@ def collect_faces(name, samples, camera_index, det_size, delay):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--name", required=True, help="Person name, example: Keroles")
+    parser.add_argument("--name", required=True, help="Person name, example: PersonName")
     parser.add_argument("--samples", type=int, default=80, help="Number of new samples to collect")
     parser.add_argument("--camera", type=int, default=0, help="Camera index, usually 0 or 1")
     parser.add_argument("--det-size", type=int, default=640, help="Detection size: 640, 960, or 1280")

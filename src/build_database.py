@@ -12,7 +12,7 @@ def build_database(det_size):
 
     if not person_dirs:
         print("Error: No person folders found.")
-        print("Example: dataset/Keroles/0001.jpg")
+        print("Example: dataset/PersonName/0001.jpg")
         return
 
     app = create_face_app(det_size=det_size, det_thresh=0.5)
